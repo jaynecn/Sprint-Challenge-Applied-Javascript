@@ -1,6 +1,6 @@
 # Sprint-Challenge Applied Javascript - Lambda Times
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored the DOM and the concept of components. During this Sprint, you studied the DOM, DOM Events, and Components, as well as HTTP GET requests, and the axios library. In your challenge this week, you will demonstrate proficiency by creating an online Lambda newspaper called "Lambda Times."
+This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored the DOM and the concept of components. During this Sprint, you studied the DOM, DOM Events, and Components, as well as HTTP GET requests, and the axios library. In your challenge this week, you will demonstrate proficiency by creating an online Lambda newspaper called "Lambda Times." 
 
 ## Instructions
 
@@ -29,14 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+DOM stands for Document Object Model.  It is a language-neutral Application Programming Interface (API).  It represents a webpage - in memory.  It’s in the viewer’s browser and acts like a bridge from the content to the webpage.
 
 2. What is an event?
+An event is the trigger for an event listener to begin. This trigger can be one of dozens of defined events.  These include the page loading, a button being clicked, the user scrolling, and so on.  It’s the way that Javascript communicates with HTML. 
 
 3. What is an event listener?
+An event listener is the ‘gatekeeper’ for certain actions to occur, and for chosen functions to start, but only under certain circumstances.  An event listener is a method which has two arguments.  The first argument defines what event is the trigger (eg. button click).  The second argument is a callback which starts only when the event from the first argument is triggered.
 
 4. Why would we convert a NodeList into an Array?
+One reason could be that you want to use an array method on the data in the Node List.  You can use .forEach on a NodeList but not other array methods such as .map or .filter
 
 5. What is a component?
+A component is a collection of reusable, self-contained code.  It can be a mix of different languages including HTML, CSS/Less and Javascript.  A component is a collection of reuseable code that collectively build towards a single purpose, such as an image carousel.
 
 ### Git Set up
 
