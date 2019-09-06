@@ -37,9 +37,9 @@ function getNews() {
         const newarticle = CardComponent(info);
         console.log(newarticle);
 
-        // const newarticle = document.querySelector('.cards-container');
+        const articles = document.querySelector('.cards-container');
 
-        // newarticle.appendChild(newtab);
+        articles.appendChild(newarticle);
       })
     })
     .catch(error => {
