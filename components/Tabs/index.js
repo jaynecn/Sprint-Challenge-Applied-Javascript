@@ -13,10 +13,8 @@ function getLambdaTimes() {
   axios.get('https://lambda-times-backend.herokuapp.com/topics')
     .then(response => {
       const topicsList = response.data.topics;
-      console.log(topicsList);
       topicsList.forEach((info) => {
         const newtab = Tab(info);
-        console.log(newtab);
         const newtopics = document.querySelector('.topics');
         newtopics.appendChild(newtab);
       })
