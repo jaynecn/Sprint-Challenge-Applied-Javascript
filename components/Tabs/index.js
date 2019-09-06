@@ -17,6 +17,8 @@ function getLambdaTimes() {
       topicsList.forEach((info) => {
         const newtab = Tab(info);
         console.log(newtab);
+        const newtopics = document.querySelector('.topics');
+        newtopics.appendChild(newtab);
       })
         // const newtab = Tab(response.data);
         // const newDiv = document.createElement('div');
