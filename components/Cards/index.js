@@ -21,7 +21,6 @@
 function getNews() {
   axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then((response) => {
-      console.log(response.data);
 
       const testArray = response.data.articles;
       const javascript = testArray.javascript;
@@ -31,11 +30,9 @@ function getNews() {
       const tech = testArray.technology;
 
       let myBigArray = javascript.concat(bootstrap).concat(jquery).concat(node).concat(tech);
-      console.log(myBigArray);
 
       myBigArray.forEach((info) => {
         const newarticle = CardComponent(info);
-        console.log(newarticle);
 
         const articles = document.querySelector('.cards-container');
 

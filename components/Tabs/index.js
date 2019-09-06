@@ -18,11 +18,7 @@ function getLambdaTimes() {
         const newtopics = document.querySelector('.topics');
         newtopics.appendChild(newtab);
       })
-        // const newtab = Tab(response.data);
-        // const newDiv = document.createElement('div');
-        // newDiv.appendChild(newcard);
-        // const cards = document.querySelector('.cards');
-        // cards.appendChild(newDiv);
+        
     })
     .catch(error => {
         console.log(error.message);
